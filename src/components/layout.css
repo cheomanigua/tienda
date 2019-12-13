@@ -8,6 +8,38 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  list-style-type: none;
+  transition: 0.3s;
+  width: 200px;
+  display: inline-block;
+}
+
+
+
+.card-image {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  list-style-type: none;
+  transition: 0.3s;
+  width: 200px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 0px;
+  text-align: center;
+}
+
+
+
+
+
+
 article,
 aside,
 details,
